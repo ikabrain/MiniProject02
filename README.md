@@ -1,35 +1,37 @@
-# 🧠 Mini Project 02 – Challenge Question Solution | Thapar Summer School on ML
-
-> 📅 **Course**: [Thapar's Machine Learning Summer School, 2025](https://www.thaparsummerschool.com/)
+# 📝 Assignment 02 - Challenge Question
+> **Course**: [Thapar's Machine Learning Summer School, 2025](https://www.thaparsummerschool.com/)
 > 
-> 👤 **Student**: Ikansh Mahajan
-> 
-> 📝 **Assignment**: Challenge Question on Basics of Python
-> 
-> 📁 **Status**: ✅ Completed
+> **Student Name**: Ikansh Mahajan
+>
+> **Student Roll No.**: 102303754
 
-## 📌 Overview
+## 🔎 Question given
+Write a Python program to sort a list of heterogenous data.
 
-This repository contains my submission for the **second assignment** of Thapar's Summer School on Machine Learning. The task was to solve a challenge question provided in the PDF. The solution is implemented using **Python**, mainly through **Google Colab**.
+For example, `["Ram", 1, "Shyam", 2, "Aman", 3]` sorts to `[1, 2, 3, "Aman", "Ram", "Shyam"]` 
 
-## 📂 Repository Structure
-📁 Mini-Project-01/<br>
-├── 📄 Assignment - Challenge Question.pdf ← Official question provided<br>
-├── 📓 solution.ipynb ← Notebook with complete solution<br>
-└── 📄 README.md ← You're reading it!<br>
+ - Question was provided in a structured PDF, uploaded in this repo.
+ - Solution is implemented using **Python**, mainly through **Google Colab**.
 
-## 🔍 Contents of the Notebook
-The notebook is organized in a clean and modular fashion:
-- 🧠 Logical reasoning and mathematical steps (where relevant) are explained  
-- 📊 Visualizations (if any) are labeled and interpreted  
-- 🧪 Results are printed cleanly with comments for readability  
+## 🔬 Methodology
+```mermaid
+flowchart LR
+A[/Read list/] --> B{Split into 2 lists}
+B -- list[int] --> C[Sort list of integers]
+B -- list[str] --> D[Sort list of strings]
+C --> E[Combine both lists]
+D --> E
+E --> F[Make previous list = new list]
+F --> P[/Print Result/]
+```
 
 ## 🚀 How to Run Notebook
-Click on the  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">  button on top of the notebook to open it in Google Colab and experiment with my solution!
+Click on the  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">  button on top of the notebook to open it in Google Colab and experiment with my solution by copying it to your Drive.
 
-## 🧾 Reflection
-This project gave me a hands-on exposure to:
-- Handling heterogenous data in generally homogenous data structures
+![07 57 08 PM](https://github.com/user-attachments/assets/e65efa6e-aa6b-45a3-a5e4-c11ea84ecb99)
+
+## 🧾 Reflections
+This assignment gave me a hands-on exposure to _Exception Handling in Python_
 
 ## ⚠️ Report Issues
-Create an issue ticket using the `Issues` section up above!
+Create an issue ticket using the `Issues` section up above.
